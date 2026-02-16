@@ -1,0 +1,6 @@
+./project-recipes
+>>index.html
+>>/recipes
+  >>simple-baked-chicken-breast.html
+>>/images
+  >>simple-baked-chicken-breast.webp
