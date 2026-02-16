@@ -1,0 +1,55 @@
+<!--
+Links and Images in HTML | Odin Project
+Link:
+https://www.theodinproject.com/lessons/foundations-links-and-images
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Links & Images in HTML</title>
+    </head>
+
+    <body>
+
+        <h1>Homepage</h1>
+        
+        <!--
+            This is an ANCHOR (a) element with a HYPERTEXT REFERENCE (href) attribute.
+            These are used to create links in HTML.
+            HTML Link Template: <a href="hypertext_link.com">Displayed Name of Link</a>
+        -->
+        <h2>THIS LINK OPENS IN THE SAME TAB</h2>
+        <!--THIS LINK OPENS IN THE SAME TAB-->
+        <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+        
+        <h2>THIS LINK OPENS IN A NEW TAB</h2>
+        <!--THIS LINK OPENS IN A NEW TAB-->
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noreferrer">About The Odin Project</a>
+
+        <!--RELATIVE LINK TO ANOTHER PAGE ON OUR WEBSITE (Another HTML file)-->
+        <h1>About Page</h1>
+        <p><a href="https://www.theodinproject.com/about" target="_blank" rel="noreferrer">About The Odin Project</a></p>
+        <p><a href="./pages/about.html" target="_blank" rel="noreferrer">About</a></p>
+
+
+        <h1>Images</h1>
+        
+        <!--IMAGES ARE VOID TAGS (<img>). 
+            Give them a source (src) attribute for the image file.
+            Give them an alt attribute to describe the image when it can't appear and for screen readers.
+            Give them a size (height & width) attribute to specify the height and width of the image to avoid image flashing.
+        -->
+        <h2>Odin</h2>
+        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" height="310" width="310" >
+        <h2>Charles!</h2>
+        <img src="./images/dog.jpg" alt="Image of Charles the Dog (an all black Pug) wearing a knitted sweater on an orange background" height="853" width="640">
+
+        <p>Follwing this <a href="https://www.theodinproject.com/lessons/foundations-links-and-images" target="_blank" rel="noreffer">tutorial</a> from Odin Project:</p>
+        <p>https://www.theodinproject.com/lessons/foundations-links-and-images</p>
+
+     </body>
+</html>
